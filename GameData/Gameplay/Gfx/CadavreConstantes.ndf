@@ -1,0 +1,13 @@
+// Temps de vie total = CadavrePeriodeEnFeu + CadavreDurationApresFeu
+export CadavrePeriodeEnFeu_Minimum is 9999 * Seconde  //300
+export CadavrePeriodeEnFeu_Maximum is 9999 * Seconde  //150
+export CadavreDurationApresFeu is 9999 * Seconde //300
+
+// Temps de vie total = CadavrePeriodEnFeu + CadavreDurationApresFeu
+export CadavrePeriodeEnFeu_Minimum_Batiment is 120 * Seconde
+export CadavrePeriodeEnFeu_Maximum_Batiment is 120 * Seconde
+
+export CadavreDurationApresFeu_Batiment is 10 * 3600 * Seconde
+
+// Dans le cas de l'infanterie on a pas de cadavre en feu donc :
+export CadavreDuration_Infanterie is 9999 * Seconde
